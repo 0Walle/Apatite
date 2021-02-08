@@ -20,7 +20,7 @@ Just compile it.
 
 ## Usage
 
-Don't use it. But if you try I recommend using the file extension `.appt` cause it sounds nice.
+Don't use it. But if you try I recommend using the file extension `.aptt` cause it sounds nice.
 
 ## Example Code
 
@@ -31,7 +31,7 @@ func fib_loop(int c) int {
 	let int temp;
 	while c > 0 {
 		temp = a;
-		a = b;
+		a += b;
 		b = temp;
 		c -= 1;
 	}
